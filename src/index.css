@@ -1,0 +1,427 @@
+.icons {
+  position: absolute;
+  left: 12.34%;
+  right: 11.03%;
+  top: 12.34%;
+  bottom: 11.03%;
+
+  background: #042330;
+}
+.cover-image {
+  display: block;
+}
+.banner-Image {
+  background-image: url("./stories/assets/undraw_Reading_re_29f8\ 1.png");
+}
+.search-bar {
+  position: static;
+  /* font-family: Cera Pro; */
+  line-height: 24px;
+  width: 40%;
+  color: #6d787e;
+  display: inline-flex;
+  padding: 5px;
+  border-bottom: 2px solid #6d787e;
+  align-items: center;
+}
+.search-bar input {
+  font-size: 100%;
+  display: inline;
+  border-style: none;
+  outline: none;
+}
+.nav {
+  /* font-family: Cera Pro; */
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #03314b;
+  order: 0;
+  /* margin: 0px 10px; */
+  display: flex;
+  align-items: center;
+  /* background-color: brown; */
+  /* padding-bottom: 5px; */
+  padding-left: 2px;
+  padding-right: 2px;
+  border-bottom: 2px solid transparent;
+  cursor: pointer;
+}
+.nav:hover {
+  border-bottom: 2px solid #22c870;
+}
+.extendedNav:hover {
+  color: #0365f2;
+  /* border-style: none; */
+  border-bottom: 2px solid transparent;
+}
+
+.button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  position: relative;
+  width: 20%;
+  background: #2ce080;
+  border-radius: 4px;
+  font-size: large;
+  cursor: pointer;
+}
+.button:hover {
+  background: #00c263;
+}
+.addButton {
+  color: blue;
+  background-color: transparent;
+  width: 10%;
+}
+.addButton:hover {
+  color: white;
+  background-color: blue;
+}
+.tabs {
+  display: inline-block;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 5px;
+  position: relative;
+  width: 28%;
+  height: 29px;
+  border-bottom: 2px solid #fff;
+  cursor: pointer;
+}
+.tabs:hover,
+.selectedTab {
+  color: #22c870;
+  border-bottom: 2px solid #2ce080;
+}
+.bookCard {
+  overflow: hidden;
+  display: inline-block;
+  background-color: white;
+  border-radius: 10px;
+  border: 1px solid #e1ecfc;
+}
+.bookCard .button {
+  width: 100%;
+  border-top: rgba(0, 0, 0, 0.151) solid 1px;
+}
+.bookCardNav {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 10px;
+  color: #000a;
+  padding-right: 10px;
+  cursor: default;
+}
+.bookCardNav .nav {
+  cursor: default;
+}
+.bookCard .nav:hover {
+  border-bottom: 2px solid transparent;
+}
+.h1 {
+  font-size: 120%;
+  font-style: bold;
+  font-weight: bold;
+  padding: 20px;
+}
+.h2 {
+  font-size: 110%;
+  color: #6d787e;
+  padding: 0px 10px 20px 20px;
+}
+.reading {
+  height: 20px;
+  /* margin-top: 30px; */
+}
+.readingHighlight {
+  width: 30%;
+  height: 100%;
+  background-color: #e1ecfc;
+}
+.full {
+  width: 100%;
+}
+.blueText {
+  display: block;
+  text-align: center;
+  padding: 5px;
+  font-weight: bold;
+  color: #0365f2;
+}
+.header {
+  width: 100%;
+  display: flex;
+  align-content: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  justify-content: center;
+  z-index: 10;
+  background-color: white;
+}
+.insideHeader {
+  background-color: white;
+  width: 57%;
+  z-index: 10;
+  transform: translateX(-3%);
+}
+.tabsHeader {
+  display: inline-flex;
+  align-items: center;
+  width: 35%;
+  justify-content: space-between;
+}
+.account {
+  float: right;
+}
+.headerImage {
+  display: inline-block;
+  width: 35%;
+}
+.avatar {
+  display: inline;
+  border-radius: 48%;
+  background-color: #69a6e3;
+  padding: 15px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  color: white;
+  font-weight: bold;
+}
+.toolBar {
+  background-color: #f1f6f4;
+  width: 80%;
+  height: 50vh;
+  display: block;
+  padding-left: 20%;
+  margin: 0;
+  z-index: 10;
+  position: absolute;
+}
+.toolBarTopNavsDiv {
+  display: block;
+  background-color: transparent;
+  width: 60%;
+  height: 10%;
+  /* justify-content:space-between; */
+  padding-top: 20px;
+  border-bottom: #000a solid 2px;
+}
+.toolBarTopNav {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+}
+.toolBarBottomNav .nav {
+  display: flex;
+  width: 30%;
+  float: left;
+  font-size: 90%;
+}
+.toolBarBottomNavsDiv {
+  display: block;
+  background-color: transparent;
+  /* width: 75%; */
+  height: 15%;
+  padding-top: 5px;
+}
+.fullheight {
+  display: block;
+  /* background-color: #00C263; */
+  border-style: none;
+  height: 73%;
+  padding-top: 10px;
+}
+.footer {
+  background-color: #f1f6f4;
+  width: 80%;
+  padding-left: 20%;
+  display: flex;
+  padding-bottom: 60px;
+  /* position:absolute;
+  bottom:0; */
+  z-index: -2;
+  margin-top: auto;
+}
+.footerDivfirst {
+  display: block;
+  float: left;
+  width: 25%;
+}
+.footerDiv {
+  display: block;
+  float: left;
+  width: 20%;
+}
+.footerIcon {
+  margin-top: 30px;
+  width: 35%;
+  margin-bottom: 30px;
+}
+.footerHeading {
+  font-size: 130%;
+  color: #0365f2;
+  font-weight: bold;
+}
+.footerCopyright {
+  display: block;
+  position: relative;
+  right: 77%;
+  font-size: 80%;
+  height: 20px;
+  margin-top: 250px;
+  color: #6d787e;
+}
+.dimFill {
+  background-color: #0007;
+  position: absolute;
+  top: 16%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 5;
+}
+body {
+  margin: 0;
+}
+* {
+  font-family: "Raleway";
+}
+.cardGrid {
+  width: 100%;
+  background-color: white;
+  display: flex;
+  align-content: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  justify-content: center;
+}
+.insideCardGrid {
+  width: 70%;
+}
+.bannerContainer {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background-color: rebeccapurple;
+}
+.banner {
+  width: 100%;
+  background-color: #f1f6f4;
+  /* display: block; */
+  display: flex;
+  /* font-family: Cera Pro; */
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 45px;
+}
+.leftBan {
+  float: left;
+  margin: 45px;
+  display: block;
+  min-width: 55%;
+}
+.leftBan .smallText {
+  margin-top: 20px;
+}
+.rightBan {
+  float: right;
+  margin: 45px;
+}
+.smallText {
+  /* font-size: 20px; */
+  font-weight: lighter;
+  /* line-height: normal; */
+  font-size: 18px;
+  line-height: 23px;
+  color: #6d787e;
+}
+.heading {
+  width: 60%;
+  /* display: block; */
+  margin: 0;
+  margin-top: 40px;
+  margin-bottom: 30px;
+  display: flex;
+  /* font-family: Cera Pro; */
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 45px;
+}
+.body {
+  display: block;
+  margin-left: 20%;
+  width: 60%;
+  /* background-color: #0001; */
+}
+.tabBox {
+  border-bottom: 1px solid #f1f6f4;
+  width: 95%;
+}
+.gridSpacing {
+  margin-top: 40px;
+  margin-bottom: 10%;
+}
+.title {
+  margin: 0;
+  padding: 0;
+  margin-top: 5%;
+  margin-bottom: 3%;
+}
+.bookViewNav {
+  margin-top: 15px;
+  display: inline-block;
+  border-bottom: 2px solid transparent;
+}
+.bookViewNav :hover {
+  border-bottom: 2px solid transparent;
+}
+.bookViewButtonDiv {
+  display: block;
+  width: 100%;
+  margin-top: 10%;
+  margin-bottom: 5%;
+}
+
+.bookViewReadButton {
+  display: inline;
+}
+.bookViewReadButton .button {
+  background-color: white;
+  display: inline-block;
+  border: 1px solid #000a;
+  color: #22c870;
+  width: 15%;
+}
+.bookViewReadButton .button:hover {
+  color: black;
+  background-color: #22c870;
+}
+.bookViewButton .button,
+.bookViewButton .nav {
+  display: inline-block;
+  text-align: center;
+  margin: 10px;
+}
+.bookViewText {
+  margin-top: 12px;
+  max-width: 60%;
+  margin-bottom: 10%;
+}
+.bookViewImage {
+  position: absolute;
+  /* float: right; */
+  right: 22%;
+  top: 12%;
+}
+
+.logButton {
+  width: 100%;
+  border-style: none;
+}

@@ -1,0 +1,117 @@
+{
+  "data": {
+    "id": 0,
+    "array": [
+      {
+        "title": "Bring Your Human to Work",
+        "author": "Erica Keswin",
+        "minutesRead": "13",
+        "totalReads": "1.9K reads",
+        "finished": false,
+        "image": "/static/media/i2.140b5ef91ee72a3ea6b0.png",
+        "isReading": true,
+        "readAgain": true,
+        "id": "2"
+      },
+      {
+        "title": "Being Boss",
+        "author": "Katheleen Shannon and Emily...",
+        "minutesRead": "13",
+        "totalReads": "1.9K reads",
+        "finished": true,
+        "image": "/static/media/i0.b3701aaf8d96b975a3a9.png",
+        "isReading": false,
+        "readAgain": true,
+        "id": "10"
+      },
+      {
+        "title": "Employee to Entrepreneur",
+        "author": "Steve Glaveski",
+        "minutesRead": "14",
+        "totalReads": "1.9K reads",
+        "finished": true,
+        "image": "/static/media/i1.422b835ea904f95d9745.png",
+        "isReading": false,
+        "readAgain": true,
+        "id": "11"
+      },
+      {
+        "title": "The Fate of Food",
+        "author": "Amanda Little",
+        "minutesRead": "12",
+        "totalReads": "16K reads",
+        "finished": false,
+        "image": "/static/media/i4.004d76dba8039956d4da.png",
+        "isReading": false,
+        "readAgain": true,
+        "id": "4"
+      },
+      {
+        "title": "Lives of the Stoics",
+        "author": "Ryan Holiday, Stephen Hansel",
+        "minutesRead": "13",
+        "totalReads": "1.9K reads",
+        "finished": true,
+        "image": "/static/media/i5.39c13587ea1107ba18ab.png",
+        "isReading": false,
+        "readAgain": true,
+        "id": "5"
+      },
+      {
+        "title": "Loving Your Business",
+        "author": "Debbie King",
+        "minutesRead": "13",
+        "totalReads": "1.9K reads",
+        "finished": false,
+        "image": "/static/media/i6.bb3090fabb05ad976973.png",
+        "isReading": false,
+        "readAgain": true,
+        "id": "6"
+      },
+      {
+        "title": "The Lonely Century",
+        "author": "Noreena Hertz",
+        "minutesRead": "15",
+        "totalReads": "1K reads",
+        "finished": false,
+        "image": "/static/media/i7.1e23f94e682325567aba.png",
+        "isReading": true,
+        "readAgain": true,
+        "id": "7"
+      },
+      {
+        "title": "Eat Better, Feel Better",
+        "author": "Giada De Laurentiis",
+        "minutesRead": "13",
+        "totalReads": "1.9K reads",
+        "finished": false,
+        "image": "/static/media/i8.aa5a0c90d2ce51cbac50.png",
+        "isReading": false,
+        "readAgain": true,
+        "id": "8"
+      },
+      {
+        "title": "Dropshipping",
+        "author": "James Moore",
+        "minutesRead": "12",
+        "totalReads": "2.9K reads",
+        "finished": false,
+        "image": "/static/media/i9.c49f1a91b1e53667e860.png",
+        "isReading": true,
+        "readAgain": true,
+        "id": "9"
+      },
+      {
+        "title": "Doesn't Hurt to Ask",
+        "author": "Trey Gowdy",
+        "minutesRead": "13",
+        "totalReads": "1.9K reads",
+        "finished": false,
+        "image": "/static/media/i3.51f9d1df46ce10964d62.png",
+        "isReading": true,
+        "readAgain": true,
+        "id": "3"
+      }
+    ]
+  }
+}
