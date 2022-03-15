@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testExecutions version="1">
+  <file path="/Users/kaushiktummalapalli/Desktop/Blinkist_Application/application/src/components/molecules/cards/bookCards.test.tsx">
+    <testCase name="Book Cards first" duration="369"/>
+    <testCase name="Book Cards onAdd Button" duration="47"/>
+    <testCase name="Book Cards onReadAgainButton" duration="70"/>
+    <testCase name="Book Cards onReadAgainButton click" duration="78"/>
+    <testCase name="Book Cards onFinishButton click" duration="125"/>
+    <testCase name="Book Cards finished" duration="64"/>
+  </file>
+  <file path="/Users/kaushiktummalapalli/Desktop/Blinkist_Application/application/src/components/organisms/cardGrid/cardGrid.test.tsx">
+    <testCase name="Card Grid Text Tests" duration="315"/>
+    <testCase name="Card Grid OnClick for Adding" duration="234"/>
+    <testCase name="Card Grid Onclick for reading again" duration="169"/>
+  </file>
+  <file path="/Users/kaushiktummalapalli/Desktop/Blinkist_Application/application/src/components/organisms/header/header.test.tsx">
+    <testCase name="Header Text" duration="160"/>
+    <testCase name="Header Explore" duration="239"/>
+    <testCase name="Header Explore Click Option" duration="32"/>
+    <testCase name="Header My Library Click" duration="25"/>
+  </file>
+  <file path="/Users/kaushiktummalapalli/Desktop/Blinkist_Application/application/src/components/molecules/buttons/buttons.test.tsx">
+    <testCase name="Button Text on Button" duration="31"/>
+    <testCase name="Button Icons" duration="80"/>
+    <testCase name="Button Button Fired" duration="12"/>
+  </file>
+  <file path="/Users/kaushiktummalapalli/Desktop/Blinkist_Application/application/src/components/organisms/bookView/bookView.test.tsx">
+    <testCase name="BookView Text on Books" duration="268"/>
+  </file>
+  <file path="/Users/kaushiktummalapalli/Desktop/Blinkist_Application/application/src/components/molecules/navItems/navItems.test.tsx">
+    <testCase name="Nav Items isPresent" duration="145"/>
+    <testCase name="Nav Items onclick" duration="49"/>
+  </file>
+  <file path="/Users/kaushiktummalapalli/Desktop/Blinkist_Application/application/src/components/molecules/tabs/tabs.test.tsx">
+    <testCase name="Tabs Check for tabs" duration="57"/>
+    <testCase name="Tabs onclick function" duration="70"/>
+  </file>
+  <file path="/Users/kaushiktummalapalli/Desktop/Blinkist_Application/application/src/components/atoms/cover_images/coverImage.test.tsx">
+    <testCase name="Cover Image Alt Text" duration="48"/>
+    <testCase name="Cover Image Image Tag" duration="70"/>
+  </file>
+  <file path="/Users/kaushiktummalapalli/Desktop/Blinkist_Application/application/src/components/organisms/toolBar/toolbar.test.tsx">
+    <testCase name="ToolBar Text" duration="205"/>
+    <testCase name="ToolBar onClick" duration="175"/>
+  </file>
+  <file path="/Users/kaushiktummalapalli/Desktop/Blinkist_Application/application/src/components/organisms/banner/banner.test.tsx">
+    <testCase name="Banner Image" duration="62"/>
+    <testCase name="Banner Text in the Banner" duration="24"/>
+  </file>
+  <file path="/Users/kaushiktummalapalli/Desktop/Blinkist_Application/application/src/components/atoms/Typo/typo.test.tsx">
+    <testCase name="Typo Typo Text" duration="29"/>
+  </file>
+  <file path="/Users/kaushiktummalapalli/Desktop/Blinkist_Application/application/src/components/molecules/searchBar/searchBar.test.tsx">
+    <testCase name="Search Bar Search Bar Placeholder Test" duration="133"/>
+  </file>
+  <file path="/Users/kaushiktummalapalli/Desktop/Blinkist_Application/application/src/components/atoms/avatar/avatar.test.tsx">
+    <testCase name="Avatar Avatar Present" duration="43"/>
+  </file>
+  <file path="/Users/kaushiktummalapalli/Desktop/Blinkist_Application/application/src/components/organisms/footer/footer.test.tsx">
+    <testCase name="Footer Text" duration="80"/>
+  </file>
+</testExecutions>
